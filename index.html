@@ -1,40 +1,110 @@
-	<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta charset="utf-8">
-    <title>Comida típica</title>
+  <meta charset="utf-8">
+  <title>Comida Típica</title>
 
-    <style>
-        img { display: block;
-            width: 350px;
-            height: 250px;}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
 
-        .center {margin-left: auto;
-            margin-right: auto;}
+    h1 {
+      color: #333;
+      margin-bottom: 30px;
+    }
 
-        table { text-align: center;}
-    </style>
+    table {
+      margin: auto;
+      border-collapse: collapse;
+    }
+
+    td {
+      padding: 20px;
+      text-align: center;
+    }
+
+    img {
+      width: 250px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .country-name {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #444;
+    }
+  </style>
 </head>
 
 <body>
 
-<table border="10" class="center">
+  <h1>Comida Típica del Mundo</h1>
+
+  <table>
     <tr>
-        <td> <a href="http://españa.html"> <img src="figuras/españa.png" alt="España"></a><p><b>España</b></p></td>
+      <td>
+        <a href="espana.html">
+          <img src="figuras/espana.png" alt="España">
+        </a>
+        <div class="country-name">España</div>
+      </td>
 
-        <td> <a href="italia.html"><img src="figuras/italia.png"alt="Italia"></a><p><b>Italia</b></p> </td>
+      <td>
+        <a href="italia.html">
+          <img src="figuras/italia.png" alt="Italia">
+        </a>
+        <div class="country-name">Italia</div>
+      </td>
 
-        <td><a href="japon.html"><img src="figuras/japon.png" alt="Japón"></a> <p><b>Japón</b></p></td>
+      <td>
+        <a href="japon.html">
+          <img src="figuras/japon.png" alt="Japón">
+        </a>
+        <div class="country-name">Japón</div>
+      </td>
     </tr>
 
     <tr>
-        <td><a href="argentina.html"><img src="figuras/argentina.png" alt="Argentina"></a><p><b>Argentina</b></p></td>
+      <td>
+        <a href="argentina.html">
+          <img src="figuras/argentina.png" alt="Argentina">
+        </a>
+        <div class="country-name">Argentina</div>
+      </td>
 
-        <td><a href="lituania.html"><img src="figuras/lituania.png" alt="Lituania"></a><p><b>Lituania</b></p></td>
+      <td>
+        <a href="lituania.html">
+          <img src="figuras/lituania.png" alt="Lituania">
+        </a>
+        <div class="country-name">Lituania</div>
+      </td>
 
-        <td><a href="mexico.html"><img src="figuras/mexico.png" alt="México"></a><p><b>México</b></p></td>
+      <td>
+        <a href="mexico.html">
+          <img src="figuras/mexico.png" alt="México">
+        </a>
+        <div class="country-name">México</div>
+      </td>
     </tr>
-</table>
+  </table>
+
+</body>
+</html>
 
 </body>
 </html>
